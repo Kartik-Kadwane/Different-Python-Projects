@@ -15,6 +15,8 @@ t.bgcolor('black')
 t.speed('fast')
 t.pensize(4)
 
+t.pensize(5)
+
 draw_circle(30,0,1)
 
 ti.sleep(3)

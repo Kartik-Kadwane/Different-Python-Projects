@@ -15,6 +15,11 @@ def blink():
     win.after(250,toggle_eyes)
     win.after(3000,blink)
 
+def blink():
+    toggle_eyes()
+    win.after(250,toggle_eyes)
+    win.after(3000,blink)
+
 def toggle_pupils():
     if not c.crossed_eyes:
         c.move(pupil_left , 10,-5)
